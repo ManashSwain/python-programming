@@ -42,7 +42,7 @@ print(str9.center(50)) #            Welcome to the Console!!!
 # Giving arguments to center
 print(str9.center(50, "*")) #************Welcome to the Console!!!*************s
 
-#count()
+# count()
 print(str9.count("e")) # 4
 
 # endswith()
@@ -56,7 +56,7 @@ print(str9.endswith("to", 4,10)) # True
 # It will return -1 if index is not found
 print(str9.find("the")) #11
 
-#index()
+# index()
 # throws error if not found 
 #File "/Users/manashswain/Desktop/Development/python/13-String-Methods/main.py", line 60, in <module>
 #print(str9.index("con")
@@ -107,3 +107,28 @@ print(str15.swapcase()) # mY NAME IS jOHN dOE
 # The title() method capitalizes each letter of the word within the string. It also makes other chars as small
 
 print(str15.title()) # My Name Is John Doe
+
+# All string methods
+
+# 1 upper()
+# 2 lower()
+# 3 strip()
+# 4 rstrip()
+# 5 replace()
+# 6 split()
+# 7 capitalize()
+# 8 center()
+# 9 count()
+# 10 endswith()
+# 11 find()
+# 12 index()
+# 13 isalnum()
+# 14 isalpha()
+# 15 islower()
+# 16 isprintable()
+# 17 isspace()
+# 18 istitle()
+# 19 isupper()
+# 20 startswith()
+# 21 swapcase() 
+# 22 title()
