@@ -76,3 +76,34 @@ print(str11.isalpha()) # True
 
 # islower()
 print(str11.islower()) # False
+
+# isprintable()
+print(str11.isprintable()) # True
+
+# isspace()
+str12 = "            " # can use space or tab
+print(str12.isspace()) # True
+
+
+# istitle()
+# The istitile() returns True only if the first letter of each word of the string is capitalized, else it returns False.
+str13 = "Hello World!"
+print(str13.istitle()) # True
+
+# isupper()
+str14 = "MY NAME IS MANASH"
+print(str14.isupper()) # True
+
+# startswith()
+print(str14.startswith("MY")) # True
+
+# swapcase() 
+# The swapcase() method changes the character casing of the string. Upper case are converted to lower case and lower case to upper case.
+
+str15 = "My name is John Doe"
+print(str15.swapcase()) # mY NAME IS jOHN dOE
+
+# title()
+# The title() method capitalizes each letter of the word within the string. It also makes other chars as small
+
+print(str15.title()) # My Name Is John Doe
