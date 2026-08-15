@@ -61,4 +61,18 @@ print(str9.find("the")) #11
 #File "/Users/manashswain/Desktop/Development/python/13-String-Methods/main.py", line 60, in <module>
 #print(str9.index("con")
 # ValueError: substring not found 
-print(str9.index("con")) # 15 
+print(str9.index("Con")) # 15 
+
+# isalnum()
+# true only if the entire string only consists of A-Z, a-z, 0-9
+str10 = "Welcome to India!!!"
+print(str10.isalnum()) # False
+
+# isalpha()
+# True only if the entire string only consists of A-Z, a-z.
+
+str11 = "Welcome"
+print(str11.isalpha()) # True
+
+# islower()
+print(str11.islower()) # False
