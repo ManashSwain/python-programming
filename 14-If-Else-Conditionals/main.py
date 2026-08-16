@@ -31,11 +31,11 @@ else:
 
 # Nested conditionals
 
-username = "johndoe"
-password = "john123"
+name = "johndoe"
+code = "john123"
 
-if(username == "johndoe"):
-    if(password == "john123"):
+if(name == "johndoe"):
+    if(code == "john123"):
         print("Authenticated")
     else:
         print("Password is incorrect")
