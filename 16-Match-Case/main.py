@@ -16,3 +16,23 @@ match x :
 
 # output : The value of x is 8
 
+#  Advanced Match case Example
+
+
+age = 20
+
+match age :
+    case 18 :
+        print("Exactly 18")
+    case 25 :
+        print("Eactly 25")
+    case _ :
+        if age < 18:
+            print("Minor")
+        elif age < 60:
+            print("Adult")
+        else:
+            print("Senior citizen")
+
+# output : Adult
+
