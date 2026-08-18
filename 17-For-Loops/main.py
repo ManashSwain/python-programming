@@ -44,3 +44,50 @@ for car in cars:
 # n
 # z
 
+# Range (Print 0-4)
+
+for k in range(5):
+ print(k)
+
+# oputput 
+
+# 0
+# 1
+# 2
+# 3
+# 4
+
+for k in range(5):
+   print(k+1)
+
+# output 
+# 1
+# 2
+# 3
+# 4
+# 5
+
+# Range with limits
+
+for k in range(4,8):
+   print(k)
+
+# Output
+
+# 4
+# 5
+# 6
+# 7
+
+# Range with steps (step = 2 means prints every 2nd character)
+
+for k in range(1,10,2):
+   print(k)
+
+# Output 
+
+# 1
+# 3
+# 5
+# 7
+# 9
