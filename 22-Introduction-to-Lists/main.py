@@ -64,3 +64,7 @@ print(outputnum) # [1, 4, 9, 16, 25, 36, 49, 64, 81]
 expoutput = [i for i in allNumbers if i%2==0]
 print(expoutput) # [2, 4, 6, 8]
 
+# Task : Square only even numbers
+squareeven = [i*i for i in allNumbers if i%2==0]
+print(squareeven) #[4, 16, 36, 64]
+
