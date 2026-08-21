@@ -59,3 +59,18 @@ multiplytwonum(num1,num2)
 
 # Output
 # 42
+
+# Arbitrary arguments
+
+def allaverage(*numbers):
+    sum = 0 
+    for i in numbers:
+        sum = sum + i
+       
+    print(sum/(len(numbers)))
+
+allaverage(10,20,30,40,50)
+
+# Output
+# 30.0
+
