@@ -37,3 +37,25 @@ def fullname(fname, lname, mname="F"):
     print("Hello", fname , mname ,lname)
 
 fullname("john", "keneddy")
+
+# Output 
+# Hello john F keneddy
+
+# Note: We can also change the order of arguments by providong correct key
+fullname(lname="Keneddy",fname="john")
+
+# Output
+# Hello john F Keneddy
+
+# Required arguments
+
+def multiplytwonum(a,b):
+    print(a*b)
+
+num1 = 6
+num2 = 7
+
+multiplytwonum(num1,num2)
+
+# Output
+# 42
