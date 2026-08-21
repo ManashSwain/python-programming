@@ -68,3 +68,9 @@ print(expoutput) # [2, 4, 6, 8]
 squareeven = [i*i for i in allNumbers if i%2==0]
 print(squareeven) #[4, 16, 36, 64]
 
+# if-else in list comprehension
+# Task : Print "Even" if number is even or else print odd
+
+evenodd = ["Even" if i%2==0 else "Odd" for i in allNumbers]
+print(evenodd) #['Odd', 'Even', 'Odd', 'Even', 'Odd', 'Even', 'Odd', 'Even', 'Odd']
+
