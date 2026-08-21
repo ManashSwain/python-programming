@@ -8,3 +8,8 @@ print(marks) # [24, 56, 77]
 print(marks[0]) # 24
 print(marks[1]) # 56
 print(marks[2]) # 77
+
+# List can store different data type in same list variable
+
+values = [21 ,"Hello", True]
+print(values) # [21, 'Hello', True]
