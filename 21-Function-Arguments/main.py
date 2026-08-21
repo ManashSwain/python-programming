@@ -32,3 +32,8 @@ average2(3)
 
 # Output 
 # 3.5
+
+def fullname(fname, lname, mname="F"):
+    print("Hello", fname , mname ,lname)
+
+fullname("john", "keneddy")
