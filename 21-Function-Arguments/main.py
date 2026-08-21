@@ -74,3 +74,13 @@ allaverage(10,20,30,40,50)
 # Output
 # 30.0
 
+# dict in functions 
+#Note : Dict is like objects
+
+def getName(**name):
+    print("Hello !", name["fname"],name["mname"],name["lname"])
+
+getName(fname="John",mname="F",lname="Keneddy")
+
+# Output
+# Hello ! John F Keneddy
