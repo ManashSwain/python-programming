@@ -13,3 +13,11 @@ print(marks[2]) # 77
 
 values = [21 ,"Hello", True]
 print(values) # [21, 'Hello', True]
+
+# Working with negative index 
+# Trick : add len(variable) - index to it
+
+nums = [12,46,734,567,35,56]
+
+print(nums[-3]) # 567
+print(nums[len(nums)-3]) # 567
