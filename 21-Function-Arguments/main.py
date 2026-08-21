@@ -84,3 +84,17 @@ getName(fname="John",mname="F",lname="Keneddy")
 
 # Output
 # Hello ! John F Keneddy
+
+# Return statement in python
+
+def getAvg(*numbers):
+    sum = 0
+    for i in numbers:
+        sum = sum + i 
+    return ((sum/len(numbers)))
+
+result = getAvg(11,22,33,44,55)
+print(result)
+
+# Output
+# 33.0
