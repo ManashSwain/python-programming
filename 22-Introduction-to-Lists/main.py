@@ -21,3 +21,33 @@ nums = [12,46,734,567,35,56]
 
 print(nums[-3]) # 567
 print(nums[len(nums)-3]) # 567
+
+# To check whether a item is present or not
+# Hint: Use if/else along with in 
+
+mylist = [23,"Manash",True,4.5,"Python"]
+
+if "Manash" in mylist:
+    print("True")
+else:
+    print("False")
+
+# Output 
+# True
+
+animals = ["Cat","Dog","Rat","Mouse","Lion","Tiger","Elephant"]
+
+# Print all values 
+print(animals) # ['Cat', 'Dog', 'Rat', 'Mouse', 'Lion', 'Tiger', 'Elephant']
+print(animals[:]) # ['Cat', 'Dog', 'Rat', 'Mouse', 'Lion', 'Tiger', 'Elephant']
+
+# Print in a particular Range
+# Hint start index will include and end index will not include
+
+print(animals[2:6]) # ['Rat', 'Mouse', 'Lion', 'Tiger']
+
+# Print every second character / print alternate character
+
+print(animals[::2]) #['Cat', 'Rat', 'Lion', 'Elephant']
+# Note Last argument is step index or jump index
+
