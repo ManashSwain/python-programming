@@ -21,3 +21,10 @@ print(type(tup3)) # <class 'tuple'>
 print(tup1[0]) # 12
 print(tup1[1]) # 24
 print(tup1[2]) # 65
+
+# Tuple negative indexing
+
+tup4 = (89,43,23,56,32,65,8,2,5,28,34,65)
+print(len(tup4)) # 12
+print(tup4[-5]) # Total length - 5 : 12-5 = 7th index
+# Output : 2
