@@ -28,3 +28,22 @@ tup4 = (89,43,23,56,32,65,8,2,5,28,34,65)
 print(len(tup4)) # 12
 print(tup4[-5]) # Total length - 5 : 12-5 = 7th index
 # Output : 2
+
+# Check for items
+
+countries = ("India","Russia","China","Australia")
+
+if "India" in countries:
+    print("India is Present")
+else:
+    print("India is not present")
+
+# Output : India is Present
+
+# Range Index
+
+evennums = (2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34)
+print(evennums[2:]) # (6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34)
+print(evennums[:6]) # (2, 4, 6, 8, 10, 12)
+print(evennums[2::2]) # (6, 10, 14, 18, 22, 26, 30, 34)
+print(evennums[::3]) # (2, 8, 14, 20, 26, 32) 
