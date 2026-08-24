@@ -37,6 +37,17 @@ print(animals.symmetric_difference(animals2)) # {'rat', 'lion', 'dog', 'elephant
 animals.symmetric_difference_update(animals2)
 print(animals) # {'lion', 'rat', 'elephant', 'dog'}
 
+# Differnce method
+
+fruits1 = {"Apple", "Banana", "Melon"}
+fruits2 = {"Orange", "Apple", "jackfruit"}
+print(fruits1.difference(fruits2)) # {'Melon', 'Banana'}
+
+# difference_update method
+
+fruits1.difference_update(fruits2)
+print(fruits1) # {'Melon', 'Banana'}
+
 # Functions and meaning 
 
 # 1. union - No repetation prints all the items from a and b without duplicates
@@ -45,3 +56,5 @@ print(animals) # {'lion', 'rat', 'elephant', 'dog'}
 # 4. intersection_update - common between the sets and also modifies the set
 # 5. symmetric_difference - Will display all the items other than common things between two sets
 # 6. symmetric_difference_update - Will display all the items other than common things between two sets also modifies the set
+# 7. differnce - Its like a -b what ever is common in a will not get displayed
+# 8. difference_update - Its like a -b what ever is common in a will not get displayed and set will get updated
