@@ -24,3 +24,17 @@ print(cities.intersection(cities2)) # {'Bangalore'}
 
 cities.intersection_update(cities2)
 print(cities) # {'Bangalore'}
+
+# Symmetric difference method
+
+animals = {"cat", "dog", "rat"}
+animals2 = {"cat", "elephant" , "lion"}
+print(animals.symmetric_difference(animals2)) # {'rat', 'lion', 'dog', 'elephant'}
+
+
+# Symmetric difference update
+
+animals.symmetric_difference_update(animals2)
+print(animals) # {'lion', 'rat', 'elephant', 'dog'}
+
+# Functions and meaning 
