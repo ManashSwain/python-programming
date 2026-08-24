@@ -61,6 +61,25 @@ print(n3.issuperset(n1)) # True
 # issubset Method 
 print(n1.issubset(n2)) # False
 
+# add method
+
+m1 = {12,34,67}
+m1.add(777)
+print(m1) # {777, 34, 67, 12}
+
+# update method 
+
+m2 = {1,2,3,4}
+m2.update({7,8,9}) 
+print(m2) # {1, 2, 3, 4, 7, 8, 9}
+
+m3 = {0,66,88}
+m4 = {33,44}
+m3.update(m4)
+print(m3) # {0, 33, 66, 88, 44}
+
+
+
 # Functions and meaning 
 
 # 1. union - No repetation prints all the items from a and b without duplicates
@@ -74,3 +93,11 @@ print(n1.issubset(n2)) # False
 # 9. isdisjoint - It will check whether the items in set1 is present in set2 or not . return boolean
 # 10. issuperset - checks if all the items of a particular set are present in the original set. It returns True if all the items are present, else it returns False.
 # 11. issubset - The issubset() method checks if all the items of the original set are present in the particular set. It returns True if all the items are present, else it returns False.
+# 12. add - adds to existing set. Note : Adds only single item
+# 13. update - It can add multiple items to set
+
+
+
+
+
+
