@@ -19,5 +19,8 @@ print(s4) # {2, 3, 7}
 cities = {"Chennai", "Bangalore", "Noida" , "coimbatore"}
 cities2 = {"Bangalore", "nagpur", "kochi"}
 print(cities.intersection(cities2)) # {'Bangalore'}
+
+# Intersection update method
+
 cities.intersection_update(cities2)
 print(cities) # {'Bangalore'}
