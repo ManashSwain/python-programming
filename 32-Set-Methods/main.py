@@ -54,6 +54,12 @@ n1 = {1,2,4,6}
 n2 = {2,7,8}
 print(n1.isdisjoint(n2)) # False
 
+# issuperset method 
+n3 = {1,2,4,6}
+print(n3.issuperset(n1)) # True
+
+# issubset Method 
+print(n1.issubset(n2)) # False
 
 # Functions and meaning 
 
@@ -66,3 +72,5 @@ print(n1.isdisjoint(n2)) # False
 # 7. differnce - Its like a -b what ever is common in a will not get displayed
 # 8. difference_update - Its like a -b what ever is common in a will not get displayed and set will get updated
 # 9. isdisjoint - It will check whether the items in set1 is present in set2 or not . return boolean
+# 10. issuperset - checks if all the items of a particular set are present in the original set. It returns True if all the items are present, else it returns False.
+# 11. issubset - The issubset() method checks if all the items of the original set are present in the particular set. It returns True if all the items are present, else it returns False.
