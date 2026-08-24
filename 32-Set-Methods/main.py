@@ -48,6 +48,13 @@ print(fruits1.difference(fruits2)) # {'Melon', 'Banana'}
 fruits1.difference_update(fruits2)
 print(fruits1) # {'Melon', 'Banana'}
 
+# isdisjoint method
+
+n1 = {1,2,4,6}
+n2 = {2,7,8}
+print(n1.isdisjoint(n2)) # False
+
+
 # Functions and meaning 
 
 # 1. union - No repetation prints all the items from a and b without duplicates
@@ -58,3 +65,4 @@ print(fruits1) # {'Melon', 'Banana'}
 # 6. symmetric_difference_update - Will display all the items other than common things between two sets also modifies the set
 # 7. differnce - Its like a -b what ever is common in a will not get displayed
 # 8. difference_update - Its like a -b what ever is common in a will not get displayed and set will get updated
+# 9. isdisjoint - It will check whether the items in set1 is present in set2 or not . return boolean
