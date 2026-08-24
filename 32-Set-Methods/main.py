@@ -13,3 +13,11 @@ print(s3) # {1, 2, 3, 5, 7}
 print(s4) # {2, 3, 7}
 
 # Note : Difference between union and update is union creates a new set where as update modifies the existing set
+
+# Intersection 
+
+cities = {"Chennai", "Bangalore", "Noida" , "coimbatore"}
+cities2 = {"Bangalore", "nagpur", "kochi"}
+print(cities.intersection(cities2)) # {'Bangalore'}
+cities.intersection_update(cities2)
+print(cities) # {'Bangalore'}
