@@ -38,3 +38,10 @@ animals.symmetric_difference_update(animals2)
 print(animals) # {'lion', 'rat', 'elephant', 'dog'}
 
 # Functions and meaning 
+
+# 1. union - No repetation prints all the items from a and b without duplicates
+# 2. update - updates the set with no repetition same as union but modifies the set
+# 3. intersection - common items but does not modify the set
+# 4. intersection_update - common between the sets and also modifies the set
+# 5. symmetric_difference - Will display all the items other than common things between two sets
+# 6. symmetric_difference_update - Will display all the items other than common things between two sets also modifies the set
