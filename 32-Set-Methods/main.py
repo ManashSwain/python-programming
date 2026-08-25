@@ -123,6 +123,16 @@ mynewitems.clear()
 print(mynewitems) # set() 
 # Note : returns empty set
 
+# Check if item exists
+
+sports = {"football", "volleyball"}
+if "football" in sports:
+    print("Football is present")
+else:
+    print("Football is not present")
+
+# Football is present
+
 
 
 # Functions and meaning 
