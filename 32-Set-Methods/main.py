@@ -91,6 +91,12 @@ print(r1)
 #     ~~~~~~~~~^^^^^
 # KeyError: 555
 
+# discard method
+
+r1.discard(888)
+print(r1)
+# Note : If there is no item then error or warning will not be displayed
+
 
 
 # Functions and meaning 
