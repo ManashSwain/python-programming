@@ -81,7 +81,7 @@ print(m3) # {0, 33, 66, 88, 44}
 # remove method 
 
 r1 = {55,66,77,88}
-r1.remove(555)
+# r1.remove(555) # Uncomment to test
 print(r1) 
 
 # Output :
@@ -96,6 +96,32 @@ print(r1)
 r1.discard(888)
 print(r1)
 # Note : If there is no item then error or warning will not be displayed
+
+# pop method
+
+p1 = {12,34,55}
+p1.pop()
+print(p1) # {12, 55}
+
+# del
+
+myitems = {"pencil", "scale"}
+del myitems
+# print(myitems) # uncomment to check
+# Output 
+# Traceback (most recent call last):
+#   File "/Users/manashswain/Desktop/Development/python/32-Set-Methods/main.py", line 110, in <module>
+#     print(myitems)
+#           ^^^^^^^
+# NameError: name 'myitems' is not defined
+# manashswain@Manashs-MacBook-Air 32-Set-Methods % 
+
+# clear 
+
+mynewitems = {"cricket", "football"}
+mynewitems.clear()
+print(mynewitems) # set() 
+# Note : returns empty set
 
 
 
@@ -115,6 +141,10 @@ print(r1)
 # 12. add - adds to existing set. Note : Adds only single item
 # 13. update - It can add multiple items to set
 # 14. remove - removes element from set if item is not present throws error
+# 15. discard - removes element if element is not present it will not throw error
+# 16. pop - pop will remove an item from last but we dont know which will be the last item
+# 17. del - del will remove the entire set 
+# 18. clear - clear will remove all the items in set keeping empty set 
 
 
 
