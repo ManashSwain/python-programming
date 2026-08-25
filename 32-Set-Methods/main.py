@@ -78,6 +78,19 @@ m4 = {33,44}
 m3.update(m4)
 print(m3) # {0, 33, 66, 88, 44}
 
+# remove method 
+
+r1 = {55,66,77,88}
+r1.remove(555)
+print(r1) 
+
+# Output :
+# Traceback (most recent call last):
+#   File "/Users/manashswain/Desktop/Development/python/32-Set-Methods/main.py", line 84, in <module>
+#     r1.remove(555)
+#     ~~~~~~~~~^^^^^
+# KeyError: 555
+
 
 
 # Functions and meaning 
@@ -95,6 +108,7 @@ print(m3) # {0, 33, 66, 88, 44}
 # 11. issubset - The issubset() method checks if all the items of the original set are present in the particular set. It returns True if all the items are present, else it returns False.
 # 12. add - adds to existing set. Note : Adds only single item
 # 13. update - It can add multiple items to set
+# 14. remove - removes element from set if item is not present throws error
 
 
 
